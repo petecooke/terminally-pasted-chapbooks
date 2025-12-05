@@ -9,17 +9,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
-    <style>
+     <style>
         body {
-            font-family: "Inter", sans-serif !important;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         }
-        h1, h2 {
+
+        /* H1 — bold retro radio style */
+        h1 {
             font-family: "Bebas Neue", sans-serif;
+            font-size: 48px;
             letter-spacing: 1px;
+            margin-bottom: 0.25em; /* small gap below H1 */
         }
-        .strike-red {
-            color: #fe0101;
-            font-weight: 700;
+
+        /* H1 credit line inside span */
+        h1 span {
+            display: block;         /* force onto its own line */
+            font-family: inherit;   /* keeps the body font for readability */
+            font-size: 12px;        /* small credit */
+            font-weight: normal;
+            color: #666;            /* muted gray */
+            margin-top: 0.25em;
+        }
+
+        /* H2 — secondary heading */
+        h2 {
+            font-family: "Raleway", sans-serif;
+            font-weight: 500;
+            font-size: 28px;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
         }
     </style>
   </head>
@@ -28,10 +47,7 @@
     <div class="container">
         <h1>
             Terminally Pasted Radio
-            <span class="h6 text-muted" style="display:block;">
-                compiled by 
-                <a href="https://kermitsfinger.bandcamp.com/" target="_blank">pete pasted</a>
-            </span>
+            <span>compiled by <a href="https://kermitsfinger.bandcamp.com/" target="_blank">pete pasted</a></span>
         </h1>
 
         <div class="container">
