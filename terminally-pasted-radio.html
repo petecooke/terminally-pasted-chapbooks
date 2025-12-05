@@ -1,89 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Terminally Pasted Radio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Terminally Pasted Radio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+     <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
 
-  <!-- Bootstrap 3 -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        /* H1 — bold retro radio style */
+        h1 {
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 48px;
+            letter-spacing: 1px;
+            margin-bottom: 0.25em; /* small gap below H1 */
+        }
 
-  <!-- Font Awesome -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+        /* H1 credit line inside span */
+        h1 span {
+            display: block;         /* force onto its own line */
+            font-family: inherit;   /* keeps the body font for readability */
+            font-size: 12px;        /* small credit */
+            font-weight: normal;
+            color: #666;            /* muted gray */
+            margin-top: 0.25em;
+        }
 
-  <style>
-    /* Body */
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: #f9f6f0; /* subtle retro cream */
-      color: #222;
-      padding-top: 30px;
-    }
-
-    /* Header container */
-    header {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    /* H1 — bold retro radio style */
-    h1 {
-      font-family: "Bebas Neue", sans-serif;
-      font-size: 60px;
-      letter-spacing: 2px;
-      margin-bottom: 5px;
-      color: #fe0101; /* vintage red accent */
-      text-transform: uppercase;
-    }
-
-    /* H1 credit line inside span */
-    h1 span {
-      display: block;
-      font-family: inherit; /* keeps body font for readability */
-      font-size: 14px;      /* slightly bigger credit */
-      font-weight: normal;
-      color: #555;          /* muted gray */
-      margin-top: 5px;
-    }
-
-    /* Divider line under header (like a station banner) */
-    .header-divider {
-      width: 80px;
-      height: 3px;
-      background-color: #fe0101;
-      margin: 10px auto 20px;
-      border-radius: 2px;
-    }
-
-    /* H2 — secondary heading */
-    h2 {
-      font-family: "Raleway", sans-serif;
-      font-weight: 500;
-      font-size: 32px;
-      letter-spacing: 1px;
-      margin-top: 0;
-      margin-bottom: 20px;
-      color: #333;
-    }
-
-    /* Links */
-    a {
-      color: #fe0101;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-
-
-
+        /* H2 — secondary heading */
+        h2 {
+            font-family: "Raleway", sans-serif;
+            font-weight: 500;
+            font-size: 28px;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+    </style>
+  </head>
 
   <body>
     <div class="container">
